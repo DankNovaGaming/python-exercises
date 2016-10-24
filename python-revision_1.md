@@ -25,3 +25,50 @@ get you and why?
   *******
  *********
 ```
+## Mathematical operations  
+a=6
+b=7
+c=(a*a+b*b)**(1/2)
+print(c)
+print("_____")
+print(17//5)
+print("_____")
+for i in range(0,75):
+	if i%7==0:
+		print(i)
+print("_____")
+seven=0
+for i in range(0,10):
+	seven=seven+7
+	print(seven)
+
+
+
+
+## INPUT/OUTPUT
+Name=input("Enter a name")
+Number=int(input("Enter a number"))
+Namelist=[]
+NumberCounter=0
+SpaceCounter=0
+print("There is",(len(Name)),"letters")
+for i in range(0,(len(Name))):
+	Namelist.append(Name[i])
+	for i in range(0,(len(Name))):
+		Namelist.append("")
+print("Your number is",(Number))
+for i in range(0,Number):
+	NumberCounter=NumberCounter+1
+	print((NumberCounter),")",(Namelist))
+Name2=input("Enter a name")
+for i in range(0,(len(Name2))):
+	print(Name2[i])
+print("")
+for i in range(len(Name2)):
+	print("\t" * i + (Name2[i]))
+print("")
+print("     *")
+print("    ***")
+print("   *****")
+print("  *******")
+print(" *********")
